@@ -1,0 +1,26 @@
+{
+  "name": "patas-em-jogo",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vp dev",
+    "build": "vp build",
+    "preview": "vp preview",
+    "prepare": "vp config"
+  },
+  "devDependencies": {
+    "vite": "npm:@voidzero-dev/vite-plus-core@8.3.8001",
+    "vite-plus": "1.8.0"
+  },
+  "overrides": {
+    "vite": "npm:@voidzero-dev/vite-plus-core@8.3.8001"
+  },
+  "devEngines": {
+    "packageManager": {
+      "name": "npm",
+      "version": "11.20.0",
+      "onFail": "download"
+    }
+  }
+}
